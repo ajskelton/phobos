@@ -12,14 +12,6 @@ if ( have_posts() ) :
 
 		<article <?php post_class(); ?>>
 
-			<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-
-				<div class="featured-image">
-					<?php the_post_thumbnail( 'mcluhan_fullscreen-image' ); ?>
-				</div>
-
-			<?php endif; ?>
-
 			<header class="entry-header section-inner">
 
 				<?php
