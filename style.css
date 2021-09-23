@@ -1575,7 +1575,7 @@ body.hide-social .social-menu {
 }
 
 .entry-content .wp-block-gallery.alignfull {
-	padding: 0 8px;
+	padding: 0 1em;
 }
 
 .entry-content ul.wp-block-gallery:not(.alignfull):not(.alignwide) {

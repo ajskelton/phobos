@@ -17,11 +17,6 @@ if ( have_posts() ) :
 				<?php
 				the_title( '<h1 class="entry-title">', '</h1>' );
 
-				// Make sure we have a custom excerpt
-				if ( has_excerpt() ) {
-					echo '<p class="excerpt">' . get_the_excerpt() . '</p>';
-				}
-
 				// Only output post meta data on single
 				if ( is_single() || is_attachment() ) : ?>
 
