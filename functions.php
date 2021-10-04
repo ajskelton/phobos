@@ -56,6 +56,9 @@ add_action( 'after_setup_theme', 'mcluhan_setup' );
 // Handle Customizer settings
 require get_template_directory() . '/inc/classes/class-mcluhan-customize.php';
 
+// Google Hooks
+require get_template_directory() . '/inc/hooks/google.php';
+
 
 /*	-----------------------------------------------------------------------------------------------
 	ENQUEUE STYLES
